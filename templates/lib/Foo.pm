@@ -1,4 +1,3 @@
-# $Id$
 package [% module %];
 use strict;
 
@@ -12,7 +11,7 @@ $VERSION = '0.11';
 
 =head1 NAME
 
-[% module %] - This is the description
+[% module %] - [% description %]
 
 =head1 SYNOPSIS
 
@@ -28,8 +27,7 @@ $VERSION = '0.11';
 
 =cut
 
-sub new
-	{
+sub new {
 	
 	}
 	
@@ -37,8 +35,7 @@ sub new
 
 =cut
 
-sub init
-	{
+sub init {
 	
 	}
 
@@ -63,7 +60,7 @@ brian d foy, C<< <bdfoy@cpan.org> >>
 
 =head1 COPYRIGHT AND LICENSE
 
-Copyright (c) 2008, brian d foy, All Rights Reserved.
+Copyright (c) [% year %], brian d foy, All Rights Reserved.
 
 You may redistribute this under the same terms as Perl itself.
 
